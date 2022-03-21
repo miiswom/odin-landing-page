@@ -1,11 +1,22 @@
 * {
-    /*border: solid red 1px;*/
+    border: solid red 1px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header-background {
+    box-sizing: border-box;
+    background: #1F2937;
+    width: 100%;
+}
+
 .header {
-    background-color: #1F2937;
-    padding: 16px;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .logo {
