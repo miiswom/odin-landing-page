@@ -12,6 +12,8 @@ body {
 .header {
     max-width: 960px;
     margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 24px 200px;
     background-color: #1F2937;
 }
 
@@ -74,6 +76,8 @@ h1 {
 img {
     width: 500px;
     height: 300px;
+    border: solid 1px #E5E7EB;
+    border-radius: 10px;
 }
 
 button {
