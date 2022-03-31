@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
     margin-bottom: 100px;
     padding: 24px 200px;
-    background-color: #1F2937;
+    background-color: black;
 }
 
 .logo {
@@ -76,7 +76,7 @@ h1 {
 img {
     width: 500px;
     height: 300px;
-    border: solid 1px #E5E7EB;
+    border: solid 1px red;
     border-radius: 10px;
 }
 
@@ -89,7 +89,7 @@ button {
     color: white;
     border-style: none;
     font-weight: bold;
-    background-color: #3882F6;
+    background-color: red;
     border-radius: 10px;
 }
 
@@ -125,6 +125,7 @@ button {
 .info-text {
     text-align: center;
     width: 150px;
+    height: 60px;
 }
 
 .testimonials {
@@ -150,7 +151,7 @@ button {
     margin: 0 auto;
     margin-bottom: 100px;
     padding: 40px;
-    background-color: #3882F6;
+    background-color: red;
     color:#F9FAF8;
     display: flex;
     align-items: center;
@@ -179,7 +180,7 @@ button {
 footer {
     margin: 0 auto;
     padding: 32px;
-    background-color: #1F2937;
+    background-color: black;
     color: #F9FAF8;
     text-align: center;
     font-size: 16px;
