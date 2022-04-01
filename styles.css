@@ -1,6 +1,6 @@
 * {
     /*border: solid red 1px;*/
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 .header {
     max-width: 960px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     padding: 24px 200px;
     background-color: black;
 }
@@ -29,6 +29,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: red;
 }
 
 a {
@@ -98,10 +99,10 @@ button {
 }
 
 .info-title {
-    padding: 30px;
-    font-size: 24px;
+    padding: 50px;
+    font-size: 52px;
     font-weight: bold;
-    color: #1F2937;
+    color: red;
     text-align: center; 
 }
 
@@ -109,6 +110,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
     margin-right: 30px;
     margin-left: 30px;
@@ -124,8 +126,9 @@ button {
 
 .info-text {
     text-align: center;
-    width: 150px;
-    height: 60px;
+    font-size: 24px;
+    width: 250px;
+    height: 250px;
 }
 
 .testimonials {
