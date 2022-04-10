@@ -124,11 +124,22 @@ button {
     gap: 8px;
 }
 
-.info-text {
+.info-text-title {
     text-align: center;
     font-size: 24px;
     width: 250px;
-    height: 250px;
+    height: 60px;
+    background-color: #FF6347;
+    color: white;
+    border: red;
+}
+
+.info-text {
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+    width: 250px;
+    height: 85px;
 }
 
 .testimonials {
